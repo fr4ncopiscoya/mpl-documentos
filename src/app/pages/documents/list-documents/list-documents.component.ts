@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './list-documents.component.html',
   styleUrl: './list-documents.component.css'
 })
-export class ListDocumentsComponent {
+export default class ListDocumentsComponent {
 
 }

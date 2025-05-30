@@ -47,7 +47,7 @@
 
                 @for (item of menuOptions; track item) {
                 <li class="nav-item">
-                    <a class="nav-link menu-link">
+                    <a [routerLink]="item.route" routerLinkActive="active"  class="nav-link menu-link">
                         <i [class]="item.icon"></i>
                         <span data-key="t-coactivo">{{item.label}}</span>
                     </a>

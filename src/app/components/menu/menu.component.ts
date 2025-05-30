@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 interface MenuOptions{
   icon:string,
@@ -8,7 +9,7 @@ interface MenuOptions{
 
 @Component({
   selector: 'app-menu',
-  imports: [],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css'
 })
@@ -18,12 +19,12 @@ export class MenuComponent {
     {
       icon: 'bi bi-file-earmark-text',
       label: 'Documentos',
-      route: '/dashboard/listar-documentos',
+      route: '/dashboard/documentos',
     },
     {
       icon: 'bi bi-cloud-upload',
       label: 'Subir Documento',
-      route: '/dashboard/subir-documento',
+      route: '/dashboard/upload',
     }
   ]
 

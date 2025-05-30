@@ -26,16 +26,26 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/app.min.css",
+              "src/assets/libs/gridjs/theme/mermaid.min.css",
               "src/assets/css/bootstrap.min.css",
+              "src/assets/css/app.min.css",
               "src/assets/css/custom.min.css",
               "src/assets/css/icons.min.css"
             ],
             "scripts": [
-              "/src/assets/js/app.js",
-              "/src/assets/libs/bootstrap/js/bootstrap.bundle.min.js",
-              "/src/assets/js/layout.js",
-              "/src/assets/js/plugins.js"
+              "src/assets/js/pages/gridjs.init.js",
+              "src/assets/libs/gridjs/gridjs.umd.js",
+              "src/assets/js/pages/contact.init.js",
+              "src/assets/libs/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/js/app.js",
+              "src/assets/js/layout.js",
+              "src/assets/js/plugins.js",
+              "src/assets/js/pages/plugins/lord-icon-2.1.0.js",
+              "src/assets/js/pages/form-wizard.init.js",
+              "src/assets/js/pages/search-result.init.js",
+              "src/assets/js/pages/bootstrap-icons.init.js",
+              "src/assets/js/pages/listjs.init.js",
+              "src/assets/libs/list.js/list.min.js"
             ]
           },
           "configurations": {
